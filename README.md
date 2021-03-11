@@ -9,6 +9,7 @@ A reference repo for the tasks given for the sprint practice. Refer below for cl
 ### Entities
 
 #### Customer
+
     class Customer{
         id: Long
         name: String
@@ -17,6 +18,7 @@ A reference repo for the tasks given for the sprint practice. Refer below for cl
     }
 
 #### Account
+
     class Account{
         accountID: Long
         balance: Double
@@ -24,6 +26,7 @@ A reference repo for the tasks given for the sprint practice. Refer below for cl
     }
 
 #### Item
+
     class Item {
         id: String (generate your own)
         price: Double
@@ -34,15 +37,17 @@ A reference repo for the tasks given for the sprint practice. Refer below for cl
 
 ### Data Access Objects
 
-#### iCustomerDAO
-    interface iCustomerDAO {
+#### ICustomerDAO
+
+    interface ICustomerDAO {
         Customer add(Customer customer);
         Customer findByID(Long customerID);
         Customer update(Customer customer);
     }
 
-#### iItemDAO
-    interface iItemDAO {
+#### IItemDAO
+
+    interface IItemDAO {
         Item add(Item item);
         Item update(Item item);
         Item findByID(String itemID);
@@ -50,15 +55,17 @@ A reference repo for the tasks given for the sprint practice. Refer below for cl
 
 ### Service Layer
 
-#### iCustomerService
-    interface iCustomerService {
+#### ICustomerService
+
+    interface ICustomerService {
         Customer findByID(Long customerID);
         Customer createCustomer(name); //create customer and his account also here
         Set<Item> itemsBoughtByCustomer(Long customerID);
     }
 
-#### iItemService
-    interface iItemService {
+#### IItemService
+
+    interface IItemService {
         Item create(Double price, String description);
         Item findByID(String itemID);
         Item buyItem(String itemID, Long customerID);
