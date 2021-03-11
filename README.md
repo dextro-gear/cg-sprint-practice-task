@@ -79,7 +79,7 @@ Open REST endpoints for the following operations:
 
 1. Get customer details by ID (customer ID, name, account ID, balance).
 2. Get item details by ID (item ID, price, description, customer ID, customer name).
-3. Customer can buy item.
+3. Endpoint for customer to buy item.
 4. Find all items bought by customer.
 
 #### Sprints
@@ -92,7 +92,7 @@ Open REST endpoints for the following operations:
 
 - **_Sprint 4:_** Add relationship between Customer and Item. Improve the part where Item is to be saved with Customer now. Check if relationship is working by printing details of item and it's customer, and customer with all the items he has bought.
 
-- **_Sprint 5:_** Open REST endpoints for cuwstomers.
+- **_Sprint 5:_** Open REST endpoints for customers.
 
 - **_Sprint 6:_** Open REST endpoints for items.
 
