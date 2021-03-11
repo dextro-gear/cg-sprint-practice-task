@@ -45,6 +45,8 @@ A reference repo for the tasks given for the sprint practice. Refer below for cl
         Customer update(Customer customer);
     }
 
+#### iItemDAO
+
     interface iItemDAO {
         Item add(Item item);
         Item update(Item item);
@@ -61,6 +63,8 @@ A reference repo for the tasks given for the sprint practice. Refer below for cl
         Set<Item> itemsBoughtByCustomer(Long customerID);
     }
 
+#### iItemService
+
     interface iItemService {
         Item create(Double price, String description);
         Item findByID(String itemID);
@@ -69,9 +73,16 @@ A reference repo for the tasks given for the sprint practice. Refer below for cl
 
 ### Tasks to be done
 
+---
+
 #### REST endpoints
 
-Open REST endpoints for the following operations: 1. Get customer details by ID (customer ID, name, account ID, balance). 2. Get item details by ID (item ID, price, description, customer ID, customer name). 3. Customer can buy item. 4. Find all items bought by customer.
+Open REST endpoints for the following operations:
+
+1. Get customer details by ID (customer ID, name, account ID, balance).
+2. Get item details by ID (item ID, price, description, customer ID, customer name).
+3. Customer can buy item.
+4. Find all items bought by customer.
 
 #### Sprints
 
@@ -79,12 +90,12 @@ Open REST endpoints for the following operations: 1. Get customer details by ID 
 
 **_Sprint 2:_** Create Customer module without items module (skip relation part) using layered architecture. In console UI, print customer add(), find() operation outputs.
 
-**_Sprint 3:_**Create Items module (skip relation field with Customer part) using layered architecture. In console UI, print items add(), find() operation outputs.
+**_Sprint 3:_** Create Items module (skip relation field with Customer part) using layered architecture. In console UI, print items add(), find() operation outputs.
 
-**_Sprint 4:_**Add relationship between Customer and Item. Improve the part where Item is to be saved with Customer now. Check if relationship is working by printing details of item and it's customer, and customer with all the items he has bought.
+**_Sprint 4:_** Add relationship between Customer and Item. Improve the part where Item is to be saved with Customer now. Check if relationship is working by printing details of item and it's customer, and customer with all the items he has bought.
 
-**_Sprint 5:_**Open REST endpoints for cuwstomers.
+**_Sprint 5:_** Open REST endpoints for cuwstomers.
 
-**_Sprint 6:_**Open REST endpoints for items.
+**_Sprint 6:_** Open REST endpoints for items.
 
 Commit your code to your own repositories.
