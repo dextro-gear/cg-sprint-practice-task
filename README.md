@@ -2,7 +2,7 @@
 
 A reference repo for the tasks given for the sprint practice. Refer below for class definitions and tasks to be implemented as a Spring-Data-JPA Project.
 
-**Note: DO NOT commit to this repo.**
+**Note: DO NOT commit to this repo. All stray commits will be rolled back.**
 
 ## Class Definitions
 
@@ -71,9 +71,7 @@ A reference repo for the tasks given for the sprint practice. Refer below for cl
         Item buyItem(String itemID, Long customerID);
     }
 
-### Tasks to be done
-
----
+## Tasks to be done
 
 #### REST endpoints
 
@@ -86,16 +84,16 @@ Open REST endpoints for the following operations:
 
 #### Sprints
 
-**_Sprint 1:_** Setup boot, JPA container managed transaction project.
+- **_Sprint 1:_** Setup boot, JPA container managed transaction project.
 
-**_Sprint 2:_** Create Customer module without items module (skip relation part) using layered architecture. In console UI, print customer add(), find() operation outputs.
+- **_Sprint 2:_** Create Customer module without items module (skip relation part) using layered architecture. In console UI, print customer add(), find() operation outputs.
 
-**_Sprint 3:_** Create Items module (skip relation field with Customer part) using layered architecture. In console UI, print items add(), find() operation outputs.
+- **_Sprint 3:_** Create Items module (skip relation field with Customer part) using layered architecture. In console UI, print items add(), find() operation outputs.
 
-**_Sprint 4:_** Add relationship between Customer and Item. Improve the part where Item is to be saved with Customer now. Check if relationship is working by printing details of item and it's customer, and customer with all the items he has bought.
+- **_Sprint 4:_** Add relationship between Customer and Item. Improve the part where Item is to be saved with Customer now. Check if relationship is working by printing details of item and it's customer, and customer with all the items he has bought.
 
-**_Sprint 5:_** Open REST endpoints for cuwstomers.
+- **_Sprint 5:_** Open REST endpoints for cuwstomers.
 
-**_Sprint 6:_** Open REST endpoints for items.
+- **_Sprint 6:_** Open REST endpoints for items.
 
 Commit your code to your own repositories.
