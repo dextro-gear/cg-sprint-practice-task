@@ -31,7 +31,7 @@ A reference repo for the tasks given for the sprint practice. Refer below for cl
         id: String (generate your own)
         price: Double
         description: String
-        boughtBy; Customer
+        boughtBy: Customer
         addedDate: LocalDateTime
     }
 
@@ -59,7 +59,7 @@ A reference repo for the tasks given for the sprint practice. Refer below for cl
 
     interface ICustomerService {
         Customer findByID(Long customerID);
-        Customer createCustomer(name); //create customer and his account also here
+        Customer createCustomer(name); //create customer and their account also here
         Set<Item> itemsBoughtByCustomer(Long customerID);
     }
 
@@ -72,15 +72,6 @@ A reference repo for the tasks given for the sprint practice. Refer below for cl
     }
 
 ## Tasks to be done
-
-#### REST endpoints
-
-Open REST endpoints for the following operations:
-
-1. Get customer details by ID (customer ID, name, account ID, balance).
-2. Get item details by ID (item ID, price, description, customer ID, customer name).
-3. Endpoint for customer to buy item.
-4. Find all items bought by customer.
 
 #### Sprints
 
@@ -95,5 +86,15 @@ Open REST endpoints for the following operations:
 - **_Sprint 5:_** Open REST endpoints for customers.
 
 - **_Sprint 6:_** Open REST endpoints for items.
+
+#### REST endpoints
+
+Open REST endpoints for the following operations:
+
+1. Get customer details by ID (customer ID, name, account ID, balance).
+2. Get item details by ID (item ID, price, description, customer ID, customer name).
+3. Endpoint for customer to buy item.
+4. Find all items bought by customer.
+
 
 Commit your code to your own repositories.
