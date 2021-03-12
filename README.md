@@ -99,6 +99,7 @@ Open REST endpoints for the following operations:
 2. Get item details by ID (item ID, price, description, customer ID, customer name).
 3. Endpoint for customer to buy item.
 4. Find all items bought by customer.
+5. Add balance amount to the customer's account; the REST endpoint should accept customer ID and balance in PUT request.
 
 
 Commit your code to your own repositories.
