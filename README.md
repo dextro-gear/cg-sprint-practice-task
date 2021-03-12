@@ -4,6 +4,9 @@ A reference repo for the tasks given for the sprint practice. Refer below for cl
 
 **Note: DO NOT commit to this repo. All stray commits will be rolled back.**
 
+## Package Structure
+![Package Structure](package.jpeg)
+
 ## Class Definitions
 
 ### Entities
