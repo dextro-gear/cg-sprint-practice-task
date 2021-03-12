@@ -64,6 +64,7 @@ A reference repo for the tasks given for the sprint practice. Refer below for cl
         Customer findByID(Long customerID);
         Customer createCustomer(name); //create customer and their account also here
         Set<Item> itemsBoughtByCustomer(Long customerID);
+        Customer addAmount(Long customerId, double amount);
     }
 
 #### IItemService
